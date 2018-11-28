@@ -4,7 +4,7 @@ public class Main {
 
     private int[] fillArray(int begining, int end) {
         int[] array = new int[end - begining];
-        for (int i = begining, j = 0; i < end; i++, j++) {
+        for (int i = begining, j = 0; i <= end; i++, j++) {
             array[j] = i;
         }
         return array;
